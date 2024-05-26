@@ -1,0 +1,66 @@
+# Lab Title: VPN Configuration
+
+## Date: 05/25/2024
+
+## Lab Overview:
+VPN configuration
+This Lab teach one how to install and configure a VPN server and client on Linux systems using two different providers: OpenVPN and PPTP.
+---
+
+### Part 1 - Configuring a Virtual Private Network with OpenVPN
+
+#### Time for Lab Completion:
+1hr,15mins
+
+#### Purpose of the Lab:
+To teach one how to Install the Firewall and Configure the VPN Server
+Configure the VPN Server and Clients
+Use Internal Services from an External Machine
+VPN configuration is crucial to cybersecurity because VPN's encrypts data making it difficult for hackers to intercept and read sensitive information.
+
+#### What did you enjoy about the lab?
+I enjoyed configuring the Open VPN on the server and client.
+
+#### What did you find most challenging about the lab?
+Typing in the IP addresses. The period key refused to work most of the time.
+
+Discussion Questions
+1.	What internal IP Address does the Firewall use?
+192.168.1.1
+2.	What is the difference between the Red and Green interfaces?
+The green interface is for the LAN connection settings while the red interface is for the WAN connection settings.
+3.	What is the Public IP Address of the firewall?
+216.1.1.1
+4.	What is the benefit of using a Linux firewall over a Windows one
+One of the benefits of using a Linux firewall over a windows firewall is greater security. Linux is generally considered a more secure operating system than windows and its firewall inherits this security posture.
+
+Discussion Questions
+1.	Where do you go to connect to an OpenVPN server in Windows 7?
+To the OpenVPN GUI shortcut on the created on the windows 7 Desktop.
+2.	Where do you configure user accounts in the OpenVPN settings?
+New user accounts are added from the authentication tab in the OpenVPN Server application. 
+3.	When the client software is installed, what device is added to the system?
+I don’t know what device is being referred to here.
+4.	After connecting to a VPN server, will you have an additional address?
+Yes, you will have an additional internal IP address assigned.
+
+
+---
+
+### Part 2 - Configuring VPN with PPTP
+
+#### Time for Lab Completion:
+
+Provide the time to complete the lab in “HRS, MIN” format, i.e. 1 hour, 10 minutes
+
+#### Purpose of the Lab:
+
+Provide a detailed description of the lab, including what the main idea was, the tasks performed, how it relates to the unit, and how it relates to cybersecurity as a whole
+
+#### What did you enjoy about the lab?
+
+Your description here
+
+#### What did you find most challenging about the lab?
+
+Your description here
