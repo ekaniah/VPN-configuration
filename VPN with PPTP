@@ -1,0 +1,53 @@
+### Part 2 - Configuring VPN with PPTP
+
+#### Time for Lab Completion:
+1hr, 20mins
+
+#### Purpose of the Lab:
+The purpose of this lab is to teach one how to Test the Firewall.
+Configure the VPN client.
+Use Internal Services from an External Machine.
+Tasks performed includes testing the current firewall and setting up the VPN server, configuring the VPN client,
+capturing exchange between the server and the external machine using wireshark. mapping a drive to the server on the external machine
+"Configuring VPN with PPTP" is crucial to cybersecurity because it regulates access to the resources on a network.
+Without proper authentication, unauthorized connections to the network cannot be established. 
+Also information transmitted using VPN is encrypted making it difficult for cyber criminal to intercept and access(read) it.
+
+#### What did you enjoy about the lab?
+I enjoyed learning how to use the 'net user remoteuser P@ssw0rd /add' in cmd prompt of the firewall to create a user.
+And then using the 'lusrmgr.msc command to navigate to the user to set up the users access on the firewall.
+
+#### What did you find most challenging about the lab?
+I have been finding it difficult to capture data using wireshark. I really still don't understand how wireshark works.
+
+Discussion Questions
+1.	What does PPTP stand for?
+Peer to Peer Tunneling Protocol
+2.	What is a banner grab?
+It is a test to check if outbound traffic is allowed on an external machine using the telnet command.
+3.	What are ways that you can verify if outbound TCP/IP traffic is allowed?
+4.	Using ping command , using telnet command, traceroute, netcat, tcpdump, wireshark, firewall log, network monitoring tools like solarwind, socket testing tools like socketlint and http/https testing tools like curl or wget to test connectivity.
+5.	What tool can be used to scan an IP Address for any open ports?
+Nmap
+
+Discussion Questions
+1.	Where do you go to connect to a VPN server in Windows 7?
+Control panel- Network and internet- network and sharing center- set up a new network
+2.	What is the command to manage accounts on Server 2008?
+Creates the user = net User remoteuser password /add
+Manages the user = lusrmgr.msc
+user- remoteuser-dial in tab-allow access.
+3.	What tab must be configured so a user can obtain remote access?
+Dial-in tab under remoteuser in user
+4.	After connecting to a VPN server, will you have an additional address?
+Yes, you will be assigned an internal IP address automatically. To confirm address type ipconfig/all.
+
+Discussion Questions
+1.	What is the command to map a drive?
+net use x: \\192.168.1.100\c$
+2.	How can you view a mapped drive?
+Start¬- computer- then click on “c$ net use x” link that was created.
+3.	What filter in Wireshark will allow you to see VPN traffic over the WAN?
+Capture filter
+4.	What filter in Wireshark will allow you to view the results of a ping command?
+icmp display filter
